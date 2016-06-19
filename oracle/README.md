@@ -21,6 +21,6 @@ ssh -X oracle@your-oracle-ip
 [oracle@oraclehost: ~]$ dbca
 ```
 
-将会打开oracle的consistant agent面板，可以按照向导一步步创建你的数据库了
+将会打开oracle的配置助手面板，可以按照向导一步步创建你的数据库了
 
 如果有遇到 `DISPLAY not set` 的错误，往往是您的桌面不支持X。具体如何在不同的操作系统下面配置X11Fording，请查看具体文档。
