@@ -7,6 +7,9 @@
 ## 存储
 默认映射了/data/db到容器的/u01/app/oradata目录
 
+## SSH帐号
+oracle用户的默认密码是 `he1100rac1e` ，如果想修改，可以在运行时修改SSH_PASS环境变量
+
 ## 管理界面
 使用X11Forward特性，由于oracle容器中的sshd配置中已经开启了X11Forward:
 ```
@@ -20,6 +23,7 @@ ssh -X oracle@your-oracle-ip
 
 [oracle@oraclehost: ~]$ dbca
 ```
+
 
 将会打开oracle的配置助手面板，可以按照向导一步步创建你的数据库了
 
