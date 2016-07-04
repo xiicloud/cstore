@@ -1,4 +1,11 @@
 # Deploy Mesos with cSphere
+默认部署组件：
+
+- mesos-master
+- mesos-slave
+- marathon
+- zookeeper cluster
+
 ### 注意事项
 镜像中的docker client是v1.11.2，而cSphere的docker是1.9.1,
 直接使用镜像中的docker无法与宿主机上的docker daemon进行通信，
